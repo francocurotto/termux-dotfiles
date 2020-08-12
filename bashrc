@@ -1,6 +1,7 @@
 # aliases
+alias g=git
 alias n=nnn
 alias q=exit
-alias r=reset
 alias p=python
+alias r=reset
 alias v=vim
