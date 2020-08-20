@@ -4,6 +4,9 @@
 " use space to go to command mode
 nnoremap <Space> :
 
+" add delete without copy command
+nnoremap D "_d
+
 """""""""""
 " Visuals "
 """""""""""
@@ -17,6 +20,9 @@ set number
 " wrap by line
 set wrap
 set linebreak
+
+" set the color column (maximum line length visual)
+set colorcolumn=52
 
 " show partially written commands
 set showcmd
