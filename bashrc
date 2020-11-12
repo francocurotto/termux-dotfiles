@@ -10,7 +10,8 @@ alias sp="ssh franco@192.168.0.11 power_off"
 # git aliases
 alias gs='git status'
 alias gaa='git add --all'
-alias gcm='git commit -m "update"'
+alias gcm='git commit -m'
+alias gcm.='git commit -m "."'
 alias gpom='git push origin master'
 alias gd='git diff'
 
